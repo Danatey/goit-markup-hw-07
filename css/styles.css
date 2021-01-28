@@ -29,13 +29,28 @@ a {
 li {
   list-style: none;
 }
-
+/* -------- */
 .logo-web {
   color: var(--accent-color);
 }
 .studio-header {
   color: #000000;
+  padding-right: 93px;
 }
+.logo-web,
+.studio-header,
+.studio-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.studio-footer {
+  color: var(--primary-color);
+}
+/* -------- */
 .page-active,
 .header-address:hover,
 .header-address:focus,
@@ -64,23 +79,13 @@ li {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.studio-footer,
 .footer-address {
   color: var(--primary-color);
 }
 .footer-link {
   color: var(--text-footer-link);
 }
-.logo-web,
-.studio-header,
-.studio-footer {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
+
 .nav-item,
 .header-address {
   font-weight: 500;
@@ -123,9 +128,7 @@ header > .conteiner,
 .header-contacts {
   margin-left: auto;
 }
-.studio-header {
-  padding-right: 93px;
-}
+
 header ul {
   padding: 0px;
   margin: 0px;
@@ -501,6 +504,8 @@ footer li:not(:last-child) {
   margin-top: 0px;
   margin-bottom: 10px;
   text-align: center;
+
+  color: var(--primary-text-color);
 }
 .profession {
   margin-top: 0px;
