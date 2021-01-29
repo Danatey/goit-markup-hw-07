@@ -413,6 +413,7 @@ footer li:not(:last-child) {
 .advantages-list p {
   margin: 0px;
 }
+/* ------ */
 .work {
   padding-bottom: 94px;
 }
@@ -458,6 +459,7 @@ footer li:not(:last-child) {
 
   color: var(--primary-color);
 }
+/* --------- */
 .team-section {
   background-color: var(--background-additional-color);
 
@@ -552,6 +554,7 @@ footer li:not(:last-child) {
 
   fill: currentColor;
 }
+/* ------- */
 .clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -588,6 +591,7 @@ footer li:not(:last-child) {
   margin-top: 20px;
   fill: currentColor;
 }
+/* ------ */
 .modal {
   position: fixed;
   top: 0;

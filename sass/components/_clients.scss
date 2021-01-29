@@ -1,0 +1,36 @@
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  ul {
+    display: flex;
+  }
+  li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.client-cards {
+  display: block;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid $social-link-color;
+  border-radius: 4px;
+  color: $social-link-color;
+
+  transition-property: color;
+  transition-duration: $transition-time;
+  transition-timing-function: $cubic;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    color: $accent-color;
+  }
+}
+.client-icon {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  fill: currentColor;
+}

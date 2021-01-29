@@ -13,6 +13,9 @@ header {
   }
 }
 .page-active {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
   color: $accent-color;
   fill: $accent-color;
 
@@ -25,9 +28,10 @@ header {
 
   padding: 32px 0px;
 
-  color: $primary-text-color;
   font-weight: 500;
   letter-spacing: 0.02em;
+
+  color: $primary-text-color;
 
   &:hover,
   &:focus {

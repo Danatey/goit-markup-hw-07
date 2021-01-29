@@ -1,0 +1,146 @@
+.footer-section {
+  background-color: $accent-background;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address-list {
+  margin-top: 20px;
+
+  li:not(:last-child) {
+    padding-bottom: 9px;
+  }
+}
+.footer-address {
+  font-family: inherit;
+  font-style: normal;
+  line-height: 24px;
+
+  color: $primary-color;
+}
+.footer-link {
+  line-height: 24px;
+
+  color: $text-footer-link;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.join {
+  margin-left: 70px;
+}
+.join-phrase {
+  color: $primary-color;
+
+  font-size: 14px;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+.social-list {
+  display: flex;
+}
+.social-list {
+  li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.social-cards {
+  display: block;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding-top: 12px;
+
+  background: rgba(255, 255, 255, 0.1);
+  color: $primary-color;
+
+  transition-property: background-color;
+  transition-duration: $transition-time;
+  transition-timing-function: $cubic;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+.social-links {
+  display: block;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+
+  fill: currentColor;
+}
+.join-input {
+  display: flex;
+}
+.join-input {
+  input {
+    width: 358px;
+    height: 50px;
+
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: $accent-background;
+    color: $primary-color;
+  }
+}
+.join-check {
+  margin-left: 93px;
+}
+
+.join-check {
+  input {
+    margin-right: 12px;
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    &::placeholder {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+.button-join {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 29px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  background-color: $accent-color;
+
+  span {
+    margin-right: 10px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+
+    color: $primary-color;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+
+    fill: $primary-color;
+  }
+}
