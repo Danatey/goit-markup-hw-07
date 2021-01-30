@@ -172,6 +172,10 @@
       outline: none;
     }
   }
+  input:hover + .icon-conteiner,
+  input:focus-within + .icon-conteiner {
+    color: $accent-color;
+  }
 }
 .icon-conteiner {
   position: absolute;
@@ -231,7 +235,6 @@
     transition-timing-function: $cubic;
   }
 }
-
 .checkbox:checked + .agree-phrase::before {
   content: "";
 
@@ -241,9 +244,4 @@
   height: 15px;
   background-image: url(../img/icon-check.svg);
   background-size: contain;
-}
-
-.input-conteiner input:hover + .icon-conteiner,
-.input-conteiner input:focus-within + .icon-conteiner {
-  color: $accent-color;
 }

@@ -1063,6 +1063,11 @@ header .header-contacts {
   outline: none;
 }
 
+.input-conteiner input:hover + .icon-conteiner,
+.input-conteiner input:focus-within + .icon-conteiner {
+  color: #2196f3;
+}
+
 .icon-conteiner {
   position: absolute;
   top: 0;
@@ -1123,11 +1128,6 @@ header .header-contacts {
   height: 15px;
   background-image: url(../img/icon-check.svg);
   background-size: contain;
-}
-
-.input-conteiner input:hover + .icon-conteiner,
-.input-conteiner input:focus-within + .icon-conteiner {
-  color: #2196f3;
 }
 
 .portfolio-section {
